@@ -26,7 +26,7 @@ class Intro extends Phaser.Scene {
         var style = { font: "Bold 132px Arial", fill: '0x000000', boundsAlignH: 'center', boundsAlignV: 'middle'};
         var style2 = { font: "Bold 42px Arial", fill: '0x000000', boundsAlignH: 'center', boundsAlignV: 'middle'};
         // add title and movement anim
-        let logo = this.add.image(960, 490, 'logo').setOrigin(0,0).setInteractive().setOrigin(.5,.5).setScale(scaleRatio * 40, scaleRatio * 30);
+        let logo = this.add.image(960, 490, 'logo').setOrigin(0,0).setInteractive().setOrigin(.5,.5).setScale(20, 10);
         // tween chain
         var tween = this.tweens.chain({
             targets: logo,
